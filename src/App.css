@@ -1,0 +1,87 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7FAFC;
+}
+
+.body {
+  background-color: #F7FAFC;
+}
+
+.icon {
+  width: 18%;
+  height: 50%;
+  border-radius: 40px;
+}
+
+.legendSlot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+
+  height: 50vh;
+  width: 100vw;
+  justify-content: space-around;
+
+}
+
+.pieHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pieCards {
+  flex-direction: column;
+  border: 1px solid black;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.chartContainer {
+  display: flex;
+    height: 80%;
+    justify-content: center;
+}
+
+.tableCard {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.stratTable {
+  border: 1px solid grey;
+}
+
+.outerVol {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.innerVol {
+  box-sizing: border-box;
+  padding: 5px;
+  color: white;
+  border-radius: 15px;
+}
+
+td {
+  padding-right: 6vw;
+}
